@@ -1,0 +1,53 @@
+.content-box {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+  }  
+  .square-img img {
+    width: 65px;
+    height: 65px;
+    border-radius: 15px;
+  }
+  .square-img{
+    padding: 0.5rem;
+  }
+  .scroll-card{
+    width: auto;
+    height: 73vh;
+    overflow: scroll ;
+    padding: 0.5rem;
+  }
+  .description{
+    margin-left: 4px;
+    font-size: 13px;
+  }
+  .card-h6 {
+    padding: 0.2rem;
+    color: black;
+  }
+
+/*  ........................................resp........................................... */
+@media only screen and (max-width: 557px) {
+  .scroll-card{
+    padding: 0.3rem;
+    width: -webkit-fill-available;
+  }
+  .description{
+    margin-left: 4px;
+    font-size: 11px;
+  }
+  .card-h6 {
+    padding: 0.2rem;
+    font-size: 12px;
+  }
+  .square-img img {
+    width: 45px;
+    height: 45px;
+  }
+
+}   

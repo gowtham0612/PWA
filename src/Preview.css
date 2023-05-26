@@ -1,0 +1,165 @@
+.lil {
+    display: flex;
+    padding-top: 2.5rem;
+  }
+  .group-img {
+    height: 40px;
+    padding-bottom: 25%;
+    padding-top: 1.5rem;
+  }
+  .group-img img{
+    width: 200px;
+    height: 150px;
+    padding-bottom: 2rem;
+  }
+  .right-content {
+    padding-left: 4rem;
+    padding-right: 3rem;
+    background-color: #fff;
+  }
+  .tour {
+    padding-top: 15px;
+    color: black;
+    display: flex;
+  }
+ .madison-reg{
+    font-size: small;
+    font-weight: 500;
+  }
+  .word {
+    padding: 5px;
+    padding-bottom: 1.5rem;
+    padding-left: 8px;
+    color: black;
+  }
+  .word1 {
+    padding: 5px;
+    padding-top: 2em;
+    margin-left: -4.5rem;
+    font-size: 12px;
+    padding-bottom: 1.5rem;
+  }
+.sub-preview{
+  padding-top: 1rem;
+}
+.sub-preview button{
+  margin: 2px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.sub-preview button svg{
+  height: 25px;
+}
+.i-2{
+    height: 20px;
+    padding-top: 1.5rem;
+    cursor: pointer;
+}
+.i-3{
+  height: 22px;
+  padding-top: 1.5rem;
+  cursor: pointer;
+}
+.send-btn{
+  width: 4.5rem;
+  border-radius: 13px;
+  color: white;
+  padding: 0.5rem;
+  height: fit-content;
+  border: 1px solid orange;
+  background-color: #FF844B;
+  cursor: pointer;
+}
+.text-menu{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  } 
+  .msg-img svg{
+    padding: 0.2rem;
+    width: 1.5rem; 
+    cursor: pointer;
+  }
+  .square-img-1 img{
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+  }
+  .date-h6{
+    font-weight: 400;
+    margin-top: -0.5rem;
+  }
+.msg-img svg:hover path{
+    fill: currentColor;
+  }
+  .msg-img button{
+  margin: 2px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer; 
+  }
+  .msg-img button svg:hover path{
+    fill: #4E7D96;
+  }
+  button svg:hover path{
+    fill: #4E7D96;
+  }
+.preview-1{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.tour-parent{
+  display: flex;
+  justify-content: space-between;
+}
+.tour-child button{
+  margin: 2px;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.tour-child{
+  margin-top: -0.5rem;
+}
+.madison{
+  padding-bottom: 1rem;
+  font-weight: 500;
+}
+.madison-des{
+  font-size: 12px; 
+  width: 525px;
+}
+.img-01{
+  padding-right: 20px;
+}
+.form-control{
+      width: -webkit-fill-available;
+      height: 5rem;
+      border-radius: 15px;
+      border-color: #6f96aa;
+      outline-color: #6f96aa;
+      padding: 1rem;
+  }
+  /* ................................................................ */
+  @media only screen and (max-width: 557px) {
+  
+   .madison-des{
+    font-size: 12px; 
+   max-width: 100%;
+  }
+  .group-img img{
+    width: 150px;
+    height: 100px;
+   }
+
+  }   
+
+  @media only screen and (max-width: 350px) {
+    .group-img img{
+      width: 120px;
+      height: 100px;
+     }
+  }
